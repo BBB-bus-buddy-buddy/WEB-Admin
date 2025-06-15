@@ -255,7 +255,7 @@ function BusDriverManagement() {
       <div style={{ display: 'flex', gap: '20px', height: 'calc(100vh - 200px)' }}>
         {/* 좌측 기사 목록 */}
         <div style={{ 
-          flex: '1', 
+          flex: '0.5', 
           backgroundColor: '#fff', 
           borderRadius: '10px', 
           boxShadow: '0 2px 10px rgba(0,0,0,0.1)',
@@ -284,7 +284,7 @@ function BusDriverManagement() {
               value={searchQuery}
               onChange={handleSearch}
               style={{
-                width: '100%',
+                width: '95%',
                 padding: '12px',
                 border: '1px solid #ddd',
                 borderRadius: '5px',

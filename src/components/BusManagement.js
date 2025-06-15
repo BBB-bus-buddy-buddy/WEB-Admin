@@ -495,7 +495,7 @@ function BusManagement() {
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
               </div>
-              <button onClick={handleAddBusClick} className="add-button">+ 버스 등록</button>
+              <button onClick={handleAddBusClick} className="add-button">+</button>
             </div>
           </div>
           <div className="bus-list">

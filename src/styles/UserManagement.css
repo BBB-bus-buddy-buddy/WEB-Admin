@@ -79,11 +79,11 @@
 /* 검색 컨테이너 */
 .search-container {
   margin-top: 10px;
-  margin-right: 80px;
+  margin-right: 40px;
 }
 
 .search-input {
-  width: 110%;
+  width: 120%;
   padding: 10px 15px;
   border: 1px solid #ddd;
   border-radius: 4px;

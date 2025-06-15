@@ -32,7 +32,7 @@ function Sidebar() {
           버스 기사 배치표
         </NavLink>
         <NavLink to="/operations" className={({ isActive }) => isActive ? 'active' : ''}>
-          통계
+          운행 기록
         </NavLink>
         <NavLink to="/statistics" className={({ isActive }) => isActive ? 'active' : ''}>
           탑승객 통계

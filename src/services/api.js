@@ -483,7 +483,7 @@ static async getAllBuses() {
     const normalizedBuses = busData.map(bus => {
       const normalizedBus = {
         // 기본 식별자
-        id: bus.id || bus._id || bus.busNumber,
+        id: bus.busId || bus.id || bus.busNumber,
         busNumber: bus.busNumber, // 서버 필드명 그대로
         busRealNumber: bus.busRealNumber, // 서버 필드명 그대로
         
